@@ -56,12 +56,20 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: #212529;
+  background: var(--branding-color);
+}
 .btn-branding-outline {
   border-radius: 4px;
   font-size: 18px;
   color: var(--branding-color);
   line-height: 27px;
   padding: 15px 30px;
+  border: 1px solid var(--branding-color);
+}
+.btn-branding-outline:hover {
+  color: #212552;
   border: 1px solid var(--branding-color);
 }
 .project-description {
