@@ -75,10 +75,29 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section img {
+  border-radius: 16%;
+  max-width: 58%;
+  margin: 0px 0px 0px 38px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -89,5 +108,13 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section img {
+    margin-top: 18px;
+    margin-right: 25px;
   }
 }
