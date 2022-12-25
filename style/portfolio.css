@@ -30,14 +30,14 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -79,12 +79,12 @@ h4 {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container .vladyslava {
-  border-radius: 16%;
-  max-width: 58%;
-  margin: 0px 0px 0px 38px;
+  border-radius: 11%;
+  max-width: 59%;
+  margin: 0px 0px 0px 100px;
 }
 .content h1 {
   font-size: 64px;
@@ -175,16 +175,14 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .project-description {
     padding: 0;
     text-align: center;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .content-container {
     text-align: center;
     padding: 0;
@@ -192,5 +190,9 @@ footer .social-links a:hover {
   .content-container img {
     margin-top: 18px;
     margin-right: 25px;
+  }
+  .content-container .vladyslava {
+    max-width: 41%;
+    margin-left: 4px;
   }
 }
